@@ -4,6 +4,10 @@
  - Que tal ter um site para oferecer serviços e produtos ao seus clientes.
  - Que tal ter um site para gerencias todos os seus clientes e produtos?
  - Que vender algo? na web nosso time de programadores de ajuda.
+  
+   ## Home
+    - Pagina ínicial do nosso projeto.
+    - Sejam todos bem vindo.
 
 
 ![](screenshot/cap01.png)
