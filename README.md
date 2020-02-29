@@ -3,11 +3,11 @@
  - Com a Tux tiramos o seu projeto do papel e colocamos ele na nuvem.
  - Que tal ter um site para oferecer serviços e produtos ao seus clientes.
  - Que tal ter um site para gerencias todos os seus clientes e produtos?
- - Que vender algo? na web nosso time de programadores de ajuda.
+ - Que vender algo na web? nosso time de programadores de ajuda.
   
    ## Home
     - Pagina ínicial do nosso projeto.
-    - Sejam todos bem vindo.
+    - Aqui seu projeto é bem vindo.
 
 
 ![](screenshot/cap01.png)
