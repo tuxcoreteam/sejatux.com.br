@@ -7,7 +7,7 @@
   
    ## Home
     - Pagina ínicial do nosso projeto.
-    - Aqui seu projeto é bem vindo.
+    - Aqui os seus projetos sera muito bem vindo.
 
 
 ![](screenshot/cap01.png)
