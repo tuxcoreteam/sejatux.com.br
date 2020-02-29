@@ -379,9 +379,7 @@ footer .column i + i {
 }
 
 /* buttonhome */
-.btn {
-  /* padding: 15px 30px; */
-}
+
 .primary-btn {
   /* font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; */
   border: none;
@@ -398,5 +396,9 @@ footer .column i + i {
   /* background-color: transparent; */
   color: #161516;
   box-shadow: #00ff90 0 0px 0px 2px inset;
+  background-color: #00ff90;
 }
-
+.btn p {
+  height: 10px;
+  color: aliceblue;
+}
