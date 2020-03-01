@@ -391,15 +391,17 @@ footer .column i + i {
   text-transform: uppercase;
 }
 .primary-btn {
-  background-color: transparent;
-  color: #161516;
-  box-shadow: #00ff90 0 0px 0px 2px inset;
-}
-.primary-btn:hover {
-  /* background-color: transparent; */
   color: #161516;
   box-shadow: #00ff90 0 0px 0px 2px inset;
   background-color: #00ff90;
+
+}
+.primary-btn:hover {
+  /* background-color: transparent; */
+ 
+  background-color: transparent;
+  color: #161516;
+  box-shadow: #00ff90 0 0px 0px 2px inset;
 }
 .btn p {
   position: relative;
