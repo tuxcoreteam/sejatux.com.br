@@ -18,12 +18,15 @@ section {
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-b, strong {
-  /* font-family: var(--Sniglet-font); */
-  font-size: 1.0em;
-  color: rgb(255, 208, 0);
+.col-md-5 strong {
+  color: greenyellow;
 }
 
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
 
 
 
@@ -136,16 +139,15 @@ header .container .col-md-7 p {
 
 .section-1 .row .col-md-6 .panel {
   position: absolute;
-  /* top: 155vmin; */
+  top: 7vmin;
   left: -18vmin;
   background: white;
-  /* border-radius: 50%; */
-  /* height: 50px; */
+  border-radius: 3px;
   text-align: left;
   padding: 13vmin 5vmin 20vmin 10vmin;
-  /* box-shadow: 0px 25px 42px rgba(252, 143, 1, 0.342); */
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   font-family: var(--Rubik);
-  /* z-index: 1; */
+  z-index: 1;
 }
 
 .section-1 .row .col-md-6 .panel h1 {
@@ -342,7 +344,7 @@ header .container .col-md-7 p {
 }
 
 footer {
-  background: rgba(0, 0, 0, 0.815);
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   overflow-x: hidden;
   padding: 14vmin 18vmin;
 }
@@ -393,17 +395,15 @@ footer .column i + i {
   text-transform: uppercase;
 }
 .primary-btn {
-  color: #161516;
-  box-shadow: #00ff90 0 0px 0px 2px inset;
-  background-color: #00ff90;
-
-}
-.primary-btn:hover {
-  /* background-color: transparent; */
- 
   background-color: transparent;
   color: #161516;
   box-shadow: #00ff90 0 0px 0px 2px inset;
+}
+.primary-btn:hover {
+  /* background-color: transparent; */
+  color: #161516;
+  box-shadow: #00ff90 0 0px 0px 2px inset;
+  background-color: #00ff90;
 }
 .btn p {
   position: relative;
