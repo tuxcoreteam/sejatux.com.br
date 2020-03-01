@@ -7,6 +7,11 @@
     width: initial;
     height: initial;
   }
+  .col-md-7 .btn {
+    position: initial;
+    width: initial;
+    height: initial;
+  }
   .section-2 .cover {
     background-position: -25vmin -10vmin;
   }
