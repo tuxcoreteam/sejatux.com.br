@@ -135,20 +135,25 @@ header .container .col-md-7 p {
   position: relative;
 }
 
+/* DETALHES */
+
 .section-1 .row .col-md-6 .panel {
-  position: absolute;
+  position: relative;
   top: 7vmin;
   left: -18vmin;
   background: white;
   border-radius: 3px;
   text-align: left;
-  padding: 13vmin 5vmin 20vmin 10vmin;
+  padding: 30vmin 20vmin 1vmin 10vmin;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
   font-family: var(--Rubik);
   z-index: 1;
 }
 
 .section-1 .row .col-md-6 .panel h1 {
+  position: relative;
+  top: -190px;
+  left: 45px;
   font-weight: bold;
   padding: 0.4em 0;
   font-size: 2em;
