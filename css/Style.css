@@ -18,11 +18,12 @@ section {
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
-header a {
-  font-family: var(--Sniglet-font);
-  font-size: 0.9em;
-  color: whitesmoke;
+b, strong {
+  /* font-family: var(--Sniglet-font); */
+  font-size: 1.0em;
+  color: rgb(255, 208, 0);
 }
+
 
 
 
