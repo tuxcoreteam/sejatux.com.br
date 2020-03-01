@@ -7,11 +7,6 @@
     width: initial;
     height: initial;
   }
-  .col-md-7 .btn {
-    position: initial;
-    width: initial;
-    height: initial;
-  }
   .section-2 .cover {
     background-position: -25vmin -10vmin;
   }
@@ -42,11 +37,7 @@
   footer .row .col-md-2 {
     margin-top: 8vmin;
   }
-  .btn p {
-    font-size: 8vmin;
-  }
 }
-
 
 /* screen size 375px */
 
