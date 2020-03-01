@@ -37,7 +37,11 @@
   footer .row .col-md-2 {
     margin-top: 8vmin;
   }
+  .btn p {
+    font-size: 8vmin;
+  }
 }
+
 
 /* screen size 375px */
 
