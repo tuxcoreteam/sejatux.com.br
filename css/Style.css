@@ -359,6 +359,10 @@ footer p > span {
   color: #ff512f;
 }
 
+.text-light {
+  color: #eeff00!important;
+}
+
 footer input {
   border: none !important;
 }
