@@ -419,3 +419,27 @@ footer .column i + i {
   top: -4px;
 
 }
+
+/* buttonsplanes */
+
+.pricing-gold .btn {
+  color: #161516;
+  box-shadow: #9400ff 0 0px 0px 2px inset;
+  background-color: #9400ff;
+}
+.pricing-gold .btn:hover {
+  background-color: transparent;
+  color: #000000;
+  box-shadow: #000000 0 0px 0px 2px inset;
+}
+.pricing-premium .btn {
+  color: #161516;
+  box-shadow: #ffa100 0 0px 0px 2px inset;
+  background-color: #ffa100;
+}
+
+.pricing-premium .btn:hover {
+  background-color: transparent;
+  color: #161516;;
+  box-shadow: #000000 0 0px 0px 2px inset;
+} */
