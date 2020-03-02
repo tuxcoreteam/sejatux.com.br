@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header,
