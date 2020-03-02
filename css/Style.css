@@ -30,6 +30,9 @@ header a {
   color: whitesmoke;
 }
 
+.text-muted {
+  color: #fcfcfc!important;
+}
 
 
 .dropdown-content {
@@ -361,7 +364,7 @@ footer input {
 }
 
 footer input::placeholder {
-  color: white !important;
+  color: rgb(112, 112, 112) !important;
 }
 
 footer .input-group .input-group-text {
