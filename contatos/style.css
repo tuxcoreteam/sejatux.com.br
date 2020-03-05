@@ -211,6 +211,16 @@
     color: #333333;
     line-height: 1.2;
     text-align: center;
+    padding-top: 10px;
+    
+  }
+
+  .login100-form-title p {
+   position: relative;
+   color: tomato;
+   font-size: 30px;
+   top: -70px;
+    
   }
   .login100-form-title i {
     font-size: 60px;
