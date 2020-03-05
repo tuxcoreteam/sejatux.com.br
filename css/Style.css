@@ -32,6 +32,7 @@ header a {
 
 .text-muted {
   color: #fcfcfc!important;
+  font-size: 14px;
 }
 
 
@@ -411,7 +412,7 @@ footer .column i + i {
   text-transform: uppercase;
 }
 .primary-btn {
-  font-size: 20px;
+  font-size: 15px;
   color: #161516;
   box-shadow: #00ff90 0 0px 0px 2px inset;
   background-color: #00ff90;
