@@ -419,8 +419,8 @@ footer .column i + i {
 
 }
 .primary-btn:hover {
-  /* background-color: transparent; */
-  background-color: #ffffff;
+  background-color: transparent;
+  /* background-color: #ffffff; */
   color: #161516;
   box-shadow: #00ff90 0 0px 0px 2px inset;
   
