@@ -51,7 +51,19 @@ section {
 		margin-left: 5px;
 		display: inline-block;
 		animation: blink .7s infinite;
-	  }
+    }
+    
+    /* PAGAMENTOS */
+ .buy h1 {
+   position: absolute;
+   margin: -10px;
+
+ } 
+
+ .buy ul li {
+   display: inline-block;
+   margin: 30px;
+  }
 /* SOCIAL */
 .media ul li {
   top: 10%;
