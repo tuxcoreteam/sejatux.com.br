@@ -60,16 +60,28 @@ section {
 
  } 
 
- .buy ul li {
-   display: inline-block;
-   margin: 30px;
-  }
+ .buy{
+   position: relative;
+  margin: 10px;
+  
+}
 /* SOCIAL */
-.media ul li {
-  top: 10%;
+.buy ul li {
   display: inline;
-  font-size: 30px;
-  cursor: pointer;
+}
+.buy i {
+  color: aliceblue;
+  padding-left: 10px;
+}
+.buy i:hover {
+  color: rgb(105, 72, 109);
+  
+}
+/* 
+BUY */
+.media ul li {
+  display: inline;
+  font-size: 200%;
 }
 .media i {
   color: aliceblue;
@@ -439,10 +451,10 @@ header .container .col-md-7 p {
 
 footer {
   
-  /* background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
-  /* overflow-x: hidden; */
-  /* padding: 4vmin 18vmin; */
-  padding-top: 50px;
+  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+  overflow-x: hidden;
+  padding: 4vmin 18vmin;
+  /* padding-top: 50px; */
   
 }
 
@@ -467,9 +479,12 @@ footer .input-group .input-group-text {
   border: none;
 }
 
-footer .column i {
-  color: #dd2476;
+footer .column {
+ 
+ 
+  
 }
+
 
 /* It is Adjacent sibling combinator */
 
