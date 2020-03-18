@@ -21,6 +21,37 @@ section {
   --light-gray: rgba(255, 255, 255, 0.877);
   
 }
+
+/* EFEITO */
+ .page-title__text {
+   top: -10%;
+		position: relative;
+		text-align: center;
+		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+		font-size: 1.0rem;
+		color: #ffffff;
+		height: 40px;
+	}
+	.made_by {
+		padding-top: 4%;
+		color: rgb(214, 215, 216);
+		font-size: 10px;
+	}
+	@keyframes blink {
+		0%, 100% {
+		  opacity: 1;
+		}
+		50% {
+		  opacity: 0;
+		}
+	  }
+	 h3::after {
+		content: '|';
+		opacity: 1;
+		margin-left: 5px;
+		display: inline-block;
+		animation: blink .7s infinite;
+	  }
 /* SOCIAL */
 .media ul li {
   top: 10%;
