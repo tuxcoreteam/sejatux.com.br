@@ -5,6 +5,19 @@
   margin: 0;
   padding: 0;
 }
+/* REDESOCIAL */
+.social-4 ul li {
+  position: relative;
+  color: #ff0000;
+  display: inline;
+  font-size: 35px;
+  left: 2px;
+  padding: 4px;
+}
+
+.social-4 i {
+  color: rgb(0, 0, 0);
+}
 
 header,
 section {
@@ -21,14 +34,22 @@ section {
   --light-gray: rgba(255, 255, 255, 0.877);
   
 }
+.fa-hands-helping {
+  color: rgb(255, 255, 255);
+  font-size: 160%;
+  margin: 2px;
+}
+.navbar {
+  color: rgb(0, 0, 0);
+}
 
 /* EFEITO */
  .page-title__text {
-   top: -10%;
+    top: -10%;
 		position: relative;
 		text-align: center;
 		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-		font-size: 1.0rem;
+		font-size: 2.0rem;
 		color: #ffffff;
 		height: 40px;
 	}
@@ -164,11 +185,11 @@ header .navbar-brand {
   font-size: 2.9em;
 }
 
-header .navbar-brand:hover {
+/* header .navbar-brand:hover {
   padding-left: 8rem;
   color: rgb(0, 0, 0);
   font-size: 2.9em;
-}
+} */
 
 header .nav-link:hover {
   color: black;
@@ -451,7 +472,7 @@ header .container .col-md-7 p {
 
 footer {
   
-  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+  background: #fffb00; */
   overflow-x: hidden;
   padding: 4vmin 18vmin;
   /* padding-top: 50px; */
@@ -489,8 +510,10 @@ footer .column {
 /* It is Adjacent sibling combinator */
 
 footer .column i + i {
-  padding: 0 0.5em;
+  padding: 6 0.5em;
 }
+
+
 
 .sticky {
   position: fixed;
