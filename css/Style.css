@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,11 +17,44 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #ffffffaf;
-  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --bggradient: linear-gradient(to bottom, #ffe600, #ff512f);
   --light-gray: rgba(255, 255, 255, 0.877);
   
 }
+/* SOCIAL */
+.media ul li {
+  top: 10%;
+  display: inline;
+  font-size: 30px;
+  cursor: pointer;
+}
+.media i {
+  color: aliceblue;
+  padding-left: 10px;
+}
+.media i:hover {
+  color: rgb(105, 72, 109);
+  
+}
 
+.litext li {
+  color: aliceblue;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+}
+i {
+  color: rgb(194, 194, 194);
+}
+/* CNPJ */
+
+.pricing i {
+  color: black;
+  margin-left: 12px;
+  /* margin: 4px; */
+}
+.fa-meteor {
+ color: rgb(0, 217, 255);
+}
 .col-md-5 strong {
   color: rgb(152, 252, 2);
 }
@@ -126,6 +160,8 @@ header .container .col-md-7 p {
 .primary-btn {
   border-radius: 30px;
   font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 /********** section 1 **************/
@@ -133,14 +169,15 @@ header .container .col-md-7 p {
 .section-1 {
   padding: 20vmin 0vmin;
   overflow: hidden;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+  background: #ff512f;
 }
 /* mix */
 .section-1 .row .col-md-6 .pray img {
   opacity: 3.0; 
   width: 120%;
   border-radius: 0.2em;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2); */
   /* background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
 
 }
@@ -153,11 +190,11 @@ header .container .col-md-7 p {
   position: absolute;
   top: 5vmin;
   left: 10vmin;
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  /* background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%); */
   border-radius: 3px;
   text-align: left;
   padding: 3vmin 5vmin 1vmin 5vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2); */
   font-family: var(--Rubik);
   z-index: 1;
 }
@@ -358,9 +395,12 @@ header .container .col-md-7 p {
 }
 
 footer {
-  background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
-  overflow-x: hidden;
-  padding: 4vmin 18vmin;
+  
+  /* background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+  /* overflow-x: hidden; */
+  /* padding: 4vmin 18vmin; */
+  padding-top: 50px;
+  
 }
 
 footer p > span {
