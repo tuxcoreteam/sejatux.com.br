@@ -121,6 +121,9 @@ BUY */
   color: rgb(105, 72, 109);
   
 }
+.litext a {
+  color: black;
+}
 
 .litext li {
   color: aliceblue;
