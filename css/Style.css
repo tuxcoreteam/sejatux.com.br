@@ -17,11 +17,15 @@
 .text-light {
   color: #ff512f;
   font-size: 102%;
-  
+  margin: -12px;
+  left: -150%;
 }
 
 .social-4 i {
   color: rgb(0, 0, 0);
+}
+.social-4 i:hover {
+  color: rgb(88, 86, 86);
 }
 
 header,
