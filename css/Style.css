@@ -129,6 +129,8 @@ BUY */
   color: aliceblue;
   font-family: 'Oswald', sans-serif;
   font-size: 1.1em;
+  text-decoration: none;
+  list-style: none;
 }
 i {
   color: rgb(194, 194, 194);
@@ -597,3 +599,5 @@ footer .column i + i {
   color: #161516;;
   box-shadow: #000000 0 0px 0px 2px inset;
 } */
+
+
