@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -53,19 +54,21 @@ section {
 }
 
 /* EFEITO */
- .page-title__text {
+ .page-title__text h3 {
     top: -30%;
 		position: relative;
 		text-align: center;
 		font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-		font-size: 2.0rem;
+		font-size: 5.0rem;
 		color: #ffffff;
 		height: 40px;
 	}
 	.made_by {
 		padding-top: 4%;
 		color: rgb(214, 215, 216);
-		font-size: 10px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 	}
 	@keyframes blink {
 		0%, 100% {
